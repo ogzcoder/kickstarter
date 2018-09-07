@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 /**
- * [replace with theme name] | Built with Slate
+ * Kickstarter | Built with Slate
  */
 @import '~normalize.css/normalize';
 
@@ -37,3 +37,9 @@
 // Templates
 @import './templates/gift_card';
 @import './templates/product';
+
+// Foundation
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+@include foundation-everything(true);

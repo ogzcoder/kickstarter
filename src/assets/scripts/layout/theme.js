@@ -5,8 +5,8 @@ import 'lazysizes/plugins/bgset/ls.bgset';
 import 'lazysizes';
 import 'lazysizes/plugins/respimg/ls.respimg';
 
-import '../../styles/theme.scss';
-import '../../styles/theme.scss.liquid';
+import '../../styles/theme.scss'; // eslint-disable-line shopify/strict-component-boundaries
+import '../../styles/theme.scss.liquid'; // eslint-disable-line shopify/strict-component-boundaries
 
 import {focusHash, bindInPageLinks} from '@shopify/theme-a11y';
 import {cookiesEnabled} from '@shopify/theme-cart';
@@ -22,3 +22,4 @@ if (cookiesEnabled()) {
     'supports-cookies',
   );
 }
+
